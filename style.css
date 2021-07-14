@@ -1,0 +1,105 @@
+body {
+  background-color: burlywood;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "display display display display"
+    "reset negative percentage division"
+    "seven eight nine multiplyy"
+    "four five six minus"
+    "one two three plus"
+    "zeroo zeroo dott equal";
+    margin-top: 25%;
+    border: 1px solid black;
+}
+
+.display {
+  grid-area: display;
+  border:2px solid crimson;
+}
+
+.zeroo {
+  grid-area: zeroo;
+}
+
+.equal {
+  grid-area: equal;
+}
+
+.plus {
+  grid-area: plus;
+}
+
+.minus {
+  grid-area: minus;
+}
+
+.multiplyy {
+  grid-area: multiplyy;
+}
+
+.division {
+  grid-area: division;
+}
+
+.reset {
+  grid-area: reset;
+}
+
+.negative {
+  grid-area: negative;
+}
+
+.percentage {
+  grid-area: percentage;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.dott {
+  grid-area: dott;
+}
